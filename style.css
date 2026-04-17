@@ -28,13 +28,13 @@ body {
     --secondary-font: 'Figtree Medium'
 }
 
-/* */
+/*Font Bold */
 @font-face {
     font-family: "Figtree ExtraBold";
     src: url(./assets/fonts/static/Figtree-ExtraBold.ttf) format('truetype');
 }
 
-/* */
+/* Font Medium */
 @font-face {
     font-family: "Figtree Medium";
     src: url(./assets/fonts/static/Figtree-Medium.ttf) format('truetype');
@@ -127,7 +127,8 @@ main {
         color: var(--gray-950);
     }
 
-    .html:hover {
+    .html:hover,
+    .html:focus {
         cursor: pointer;
         color: var(--yellow);
     }
